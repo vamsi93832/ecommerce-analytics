@@ -1,0 +1,16 @@
+product_id,product_name,avg_rating,total_reviews,unique_reviews
+2001,Laptop,3.05,171,171
+2002,Monitor,3.14,140,140
+2003,Keyboard,2.99,152,152
+2004,Mouse,3.01,138,138
+2005,Headphones,3.04,179,179
+2006,USB Cable,3.03,138,138
+2007,Phone,3.07,128,128
+2008,Tablet,2.92,133,133
+2009,Smartwatch,2.89,141,141
+2010,Camera,3.06,138,138
+2011,Charger,3.12,130,130
+2012,Screen Protector,2.82,145,145
+2013,Phone Case,2.83,156,156
+2014,SSD Drive,3.13,144,144
+2015,RAM Memory,2.98,156,156

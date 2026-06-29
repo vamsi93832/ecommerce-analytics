@@ -1,0 +1,16 @@
+product_id,product_name,price,category,stock_quantity
+2001,Laptop,1200,Electronics,143
+2002,Monitor,350,Electronics,430
+2003,Keyboard,100,Electronics,222
+2004,Mouse,45,Electronics,397
+2005,Headphones,120,Electronics,491
+2006,USB Cable,15,Accessories,357
+2007,Phone,800,Electronics,175
+2008,Tablet,500,Electronics,434
+2009,Smartwatch,300,Electronics,357
+2010,Camera,600,Electronics,346
+2011,Charger,35,Accessories,407
+2012,Screen Protector,12,Accessories,80
+2013,Phone Case,25,Accessories,223
+2014,SSD Drive,150,Storage,444
+2015,RAM Memory,100,Components,74
