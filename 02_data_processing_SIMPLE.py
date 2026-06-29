@@ -158,12 +158,18 @@ daily_sales.to_csv('daily_sales_summary.csv', index=False)
 print(f"✓ Created daily_sales_summary.csv ({len(daily_sales)} records)")
 
 # --- DATASET 2: Product Performance ---
+# Compute average rating per product from the `reviews` table and merge it in.
+ratings = reviews.groupby('product_id')['rating'].mean().reset_index().rename(columns={'rating': 'avg_rating'})
+ratings['avg_rating'] = ratings['avg_rating'].round(2)
+
 product_performance = merged.groupby(['product_id', 'product_name']).agg({
     'order_id': 'nunique',          # How many times ordered
     'quantity': 'sum',              # Total units sold
-    'line_total': 'sum',            # Total revenue
-    'rating': 'mean'                # Average rating
+    'line_total': 'sum'             # Total revenue
 }).reset_index()
+
+# Merge average rating (may be NaN if no reviews exist for a product)
+product_performance = product_performance.merge(ratings, on='product_id', how='left')
 
 # Rename columns
 product_performance.columns = ['product_id', 'product_name', 'orders_count', 'units_sold', 'revenue', 'avg_rating']
