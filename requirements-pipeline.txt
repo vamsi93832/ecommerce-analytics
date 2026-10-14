@@ -1,0 +1,3 @@
+# everything needed to rebuild the results from the raw Olist tables (Colab or local)
+-r requirements.txt
+duckdb>=1.0

@@ -1,0 +1,8 @@
+payment_type,installments,orders,order_share_pct,avg_order_value
+boleto,1. Paid in full,19614,19.9,121.93
+credit_card,1. Paid in full,23838,24.2,82.57
+credit_card,2. 2-3 installments,22520,22.9,114.21
+credit_card,3. 4-6 installments,16052,16.3,157.72
+credit_card,4. 7+ installments,12069,12.3,302.73
+debit_card,1. Paid in full,1520,1.5,120.81
+voucher,1. Paid in full,2853,2.9,88.16

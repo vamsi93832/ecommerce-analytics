@@ -1,0 +1,3 @@
+period,orders,customers,gmv,avg_order_value,freight_pct_of_gmv,on_time_pct,avg_review,canceled_pct
+2017 (Jan-Aug),22968,22320,3113000.32,137.18,16.0,96.5,4.14,0.74
+2018 (Jan-Aug),53991,52743,7385905.8,137.35,17.0,92.3,4.09,0.58

@@ -1,0 +1,4 @@
+segment,customers,customer_share_pct,gmv_share_pct,median_days_to_return
+One order,92102,97.0,94.4,
+Two orders,2652,2.8,4.8,41.0
+Three or more,236,0.2,0.7,39.0

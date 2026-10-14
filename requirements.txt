@@ -1,3 +1,6 @@
-pandas==2.0.3
-numpy==1.24.3
-python-dateutil==2.8.2
+# what the dashboard needs. Streamlit Cloud installs this file, and the app
+# only reads finished results from outputs/, so it stays small.
+# streamlit 1.51 is the oldest version that supports width="stretch" on charts
+pandas>=2.0
+altair>=5.0
+streamlit>=1.51
