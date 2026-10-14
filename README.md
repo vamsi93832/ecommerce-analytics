@@ -1,5 +1,9 @@
 # E-Commerce Marketplace Analytics
 
+[![Open the live dashboard](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ecommerce-analytics-6sbbpjme6k2qx4nuczlynb.streamlit.app/)
+
+**[View the live dashboard →](https://ecommerce-analytics-6sbbpjme6k2qx4nuczlynb.streamlit.app/)**
+
 **What drives customer satisfaction on an online marketplace, which sellers and routes are hurting it, and where should operations focus first?**
 
 Olist is a Brazilian marketplace that connects small sellers to big online stores. This project takes about 100,000 of its real orders, from 96,000 customers and 3,095 sellers between 2016 and 2018, and turns nine linked tables into the analysis a marketplace analytics team would hand to leadership: validated KPIs, a delivery-to-review link, a seller scorecard, category economics, and customer behavior. It runs on Python, SQL and a Streamlit dashboard.
